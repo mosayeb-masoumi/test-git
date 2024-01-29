@@ -17,7 +17,11 @@ class _ThirdScreenState extends State<ThirdScreen> {
         height: double.infinity,
         color: Colors.pinkAccent,
         
-        child: Center(child: ElevatedButton(onPressed: (){}, child: Text("third screen button"))),
+        child: Column(
+          children: [
+            Center(child: ElevatedButton(onPressed: (){}, child: Text("third screen button"))),
+          ],
+        ),
       ),
     );
   }
