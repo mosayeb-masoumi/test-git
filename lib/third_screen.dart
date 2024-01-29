@@ -10,11 +10,6 @@ class ThirdScreen extends StatefulWidget {
 
 class _ThirdScreenState extends State<ThirdScreen> {
   @override
-  void initState() {
-    // TODO: implement initState
-    super.initState();
-  }
-  @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
@@ -25,6 +20,10 @@ class _ThirdScreenState extends State<ThirdScreen> {
         child: Column(
           children: [
             Center(child: ElevatedButton(onPressed: (){}, child: Text("third screen button"))),
+            ElevatedButton(onPressed: (){}, child: Text("btn")),
+            ElevatedButton(onPressed: (){}, child: Text("btn2")),
+            ElevatedButton(onPressed: (){}, child: Text("btn3")),
+
           ],
         ),
       ),
