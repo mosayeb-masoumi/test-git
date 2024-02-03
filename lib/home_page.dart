@@ -28,6 +28,13 @@ class _HomePageState extends State<HomePage> {
                 makeRequest();
                 Navigator.of(context).push(MaterialPageRoute(builder: (context) => ThirdScreen()));
               }, child: Text("btn")),
+              
+              
+              
+              Text("this is a text originally created in develop branch"),
+              Text("this is second text originally created in develop branch"),
+              Text("this is third text originally created in develop branch"),
+
             ],
           ),
         ),
