@@ -19,11 +19,9 @@ class _ThirdScreenState extends State<ThirdScreen> {
         
         child: Column(
           children: [
-            Center(child: ElevatedButton(onPressed: (){}, child: Text("third screen button"))),
-            ElevatedButton(onPressed: (){}, child: Text("btn")),
-            ElevatedButton(onPressed: (){}, child: Text("btn2")),
-            ElevatedButton(onPressed: (){}, child: Text("btn3")),
+            Center(child: ElevatedButton(onPressed: (){
 
+            }, child: Text("third screen button"))),
           ],
         ),
       ),
