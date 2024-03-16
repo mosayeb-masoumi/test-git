@@ -15,30 +15,19 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: Scaffold(
-        body: Container(
-          width: double.infinity,
-          height: double.infinity,
-          color: Colors.blueGrey,
-          
-          child: Column(
-            children: [
-              ElevatedButton(onPressed: (){
-                makeRequest();
-                Navigator.of(context).push(MaterialPageRoute(builder: (context) => ThirdScreen()));
-              }, child: Text("btn")),
-              
-              
-              
-              Text("this is a text originally created in develop branch"),
-              Text("this is second text originally created in develop branch"),
-              // Text("this is third text originally created in develop branch"),
-              Text("this is third text originally created in develop branch"),
-              Text("this is third text originally created in develop branch"),
-            //
-            ],
-          ),
+
+    return Scaffold(
+      body: Container(
+        width: double.infinity,
+        height: double.infinity,
+        color: Colors.blueGrey,
+        
+        child: Column(
+          children: [
+            ElevatedButton(onPressed: (){}, child: Text("btn")),
+            //space
+          ],
+
         ),
       ),
     );
