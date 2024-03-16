@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
               
               Text("this is a text originally created in develop branch"),
               Text("this is second text originally created in develop branch"),
-              Text("this is third text originally created in develop branch"),
+              // Text("this is third text originally created in develop branch"),
             //
             ],
           ),
