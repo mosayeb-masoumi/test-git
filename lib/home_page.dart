@@ -26,8 +26,17 @@ class _HomePageState extends State<HomePage> {
           children: [
             ElevatedButton(onPressed: (){}, child: Text("btn")),
             ElevatedButton(onPressed: (){}, child: Text("btn")),
+            ElevatedButton(onPressed: (){}, child: Text("btn")),
             //space
+            ElevatedButton(onPressed: (){}, child: Text("btn")),
             //space
+
+            ElevatedButton(onPressed: (){}, child: Text("merged from test a")),
+
+
+            ElevatedButton(onPressed: (){}, child: Text("git stash")),
+            ElevatedButton(onPressed: (){}, child: Text("git stash after add")),
+
           ],
 
         ),
