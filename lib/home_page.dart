@@ -32,6 +32,12 @@ class _HomePageState extends State<HomePage> {
             //space
 
             ElevatedButton(onPressed: (){}, child: Text("merged from test a")),
+
+
+            ElevatedButton(onPressed: (){}, child: Text("git stash")),
+            ElevatedButton(onPressed: (){}, child: Text("git stash after add")),
+
+
           ],
 
         ),
