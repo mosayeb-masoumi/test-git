@@ -30,8 +30,6 @@ class _HomePageState extends State<HomePage> {
             //space
             ElevatedButton(onPressed: (){}, child: Text("btn")),
             //space
-
-            ElevatedButton(onPressed: (){}, child: Text("merged from test a")),
           ],
 
         ),
