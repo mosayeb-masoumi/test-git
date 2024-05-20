@@ -25,6 +25,8 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           children: [
             ElevatedButton(onPressed: (){}, child: Text("btn")),
+
+            ElevatedButton(onPressed: (){}, child: Text("btn f2")),
           ],
 
         ),
