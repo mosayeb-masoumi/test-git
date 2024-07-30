@@ -1,5 +1,6 @@
 
 import 'dart:convert';
+// import 'package:flutter/services.dart';
 
 import 'package:flutter/material.dart';
 import 'package:testtt/third_screen.dart';
@@ -13,6 +14,9 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+
+  final TextEditingController _controller = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
 
@@ -20,13 +24,22 @@ class _HomePageState extends State<HomePage> {
       body: Container(
         width: double.infinity,
         height: double.infinity,
-        color: Colors.blueGrey,
+        color: Colors.redAccent,
         
         child: Column(
           children: [
-            ElevatedButton(onPressed: (){}, child: Text("btn")),
 
-            ElevatedButton(onPressed: (){}, child: Text("btn f2")),
+            // TextField(
+            //   controller: _controller,
+            //   keyboardType: TextInputType.number,
+            //   inputFormatters: [
+            //     FilteringTextInputFormatter.digitsOnly,
+            //     PersianDateFormatter(),
+            //   ],
+            //   decoration: InputDecoration(
+            //     labelText: 'Enter Persian Date (YYYY/MM/DD)',
+            //   ),
+            // ),
           ],
 
         ),
