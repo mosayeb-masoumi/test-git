@@ -28,6 +28,9 @@ class _HomePageState extends State<HomePage> {
 
             ElevatedButton(onPressed: (){}, child: Text("btn f1")),
             ElevatedButton(onPressed: (){}, child: Text("btn f1")),
+
+            ElevatedButton(onPressed: (){}, child: Text("btn from feature1")),
+
           ],
 
         ),
